@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "name": "pandoc-default",
+  "version": "1.0.0",
+  "template": {
+    "file": "templates/reference.docx"
+  },
+  "roles": {
+    "body": {"word_styles": ["First Paragraph", "Body Text"]},
+    "heading_1": {"word_styles": ["heading 1"]},
+    "heading_2": {"word_styles": ["heading 2"]},
+    "heading_3": {"word_styles": ["heading 3"]},
+    "caption": {"word_styles": ["Table Caption", "Image Caption"]},
+    "quote": {"word_styles": ["Block Text"]},
+    "code": {"word_styles": ["Source Code"]},
+    "list": {"word_styles": ["Compact"]},
+    "table": {"word_styles": ["Table"]}
+  },
+  "lint": {
+    "heading_level_skipped": {"enabled": true, "severity": "warning"},
+    "raw_content_present": {"enabled": true, "severity": "info"}
+  }
+}

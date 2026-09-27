@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "neutral-docx-baseline",
+  "metadata": {
+    "title": "Neutral Document Baseline",
+    "author": "Example Author",
+    "subject": "Fictional process overview",
+    "date": "2026-01-01",
+    "lang": "en-US"
+  },
+  "sections": [
+    "sections/01-overview.md",
+    "sections/02-process.md"
+  ],
+  "appendices": [
+    {
+      "source": "appendix.md",
+      "output": "appendix.docx",
+      "title": "Appendix A. Sample Data"
+    }
+  ],
+  "bibliography": "references.bib",
+  "csl": null,
+  "template": null,
+  "output": "report.docx"
+}

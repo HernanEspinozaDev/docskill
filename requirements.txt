@@ -1,0 +1,2 @@
+# docskill currently has no third-party Python runtime dependencies.
+# Pandoc is an external system dependency; see docs/DEPENDENCIES.md.

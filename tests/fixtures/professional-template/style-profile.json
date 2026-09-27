@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "name": "neutral-professional-template",
+  "version": "1.0.0",
+  "template": {
+    "file": "templates/reference.docx"
+  },
+  "compatibility": {
+    "pandoc_style_aliases": {
+      "FirstParagraph": "PARRAFO",
+      "BodyText": "PARRAFO",
+      "BlockText": "DESTACADO2",
+      "Compact": "Prrafodelista",
+      "SourceCode": "PARRAFO",
+      "ImageCaption": "PIEDEFOTO",
+      "TableCaption": "TABLATTULO",
+      "Table": "Tablanormal"
+    }
+  },
+  "roles": {
+    "body": {"word_styles": ["FirstParagraph", "BodyText"]},
+    "heading_1": {"word_styles": ["Ttulo10"]},
+    "heading_2": {"word_styles": ["Ttulo2"]},
+    "heading_3": {"word_styles": ["Ttulo3"]},
+    "caption": {"word_styles": ["ImageCaption", "TableCaption"]},
+    "quote": {"word_styles": ["BlockText"]},
+    "code": {"word_styles": ["SourceCode"]},
+    "list": {"word_styles": ["Compact"]},
+    "table": {"word_styles": ["Table"]}
+  },
+  "lint": {
+    "heading_level_skipped": {"enabled": true, "severity": "warning"},
+    "raw_content_present": {"enabled": true, "severity": "info"}
+  }
+}

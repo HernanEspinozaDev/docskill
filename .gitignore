@@ -1,0 +1,30 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Generated Python/package/test outputs
+build/
+**/build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local tools and environment configuration
+.tools/
+.env
+.env.*
+!.env.example
+
+# Editor/OS/temp files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.log
+~$*

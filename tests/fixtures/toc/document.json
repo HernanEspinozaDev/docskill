@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "id": "neutral-toc-fixture",
+  "metadata": {
+    "title": "Neutral TOC Fixture",
+    "author": "docskill fixture",
+    "subject": "Synthetic table of contents test",
+    "lang": "en-US"
+  },
+  "sections": ["sections/toc.md"],
+  "template": null,
+  "output": "report.docx"
+}

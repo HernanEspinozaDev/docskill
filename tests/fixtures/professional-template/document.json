@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "id": "neutral-professional-template-fixture",
+  "metadata": {
+    "title": "Neutral Professional Template Test",
+    "author": "docskill fixture",
+    "subject": "Synthetic structural compatibility test",
+    "date": "2026-01-01",
+    "lang": "es-CL"
+  },
+  "sections": [
+    "sections/01-report.md"
+  ],
+  "appendices": [
+    {
+      "source": "appendix.md",
+      "output": "appendix.docx",
+      "title": "Anexo A. Datos de ejemplo"
+    }
+  ],
+  "bibliography": "references.bib",
+  "csl": null,
+  "template": null,
+  "style_profile": "style-profile.json",
+  "output": "report.docx"
+}

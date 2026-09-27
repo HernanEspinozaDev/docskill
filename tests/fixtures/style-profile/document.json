@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "id": "style-profile-fixture",
+  "metadata": {
+    "title": "Style Profile Fixture",
+    "author": "Example Author",
+    "date": "2026-01-01",
+    "lang": "en-US"
+  },
+  "sections": ["source.md"],
+  "appendices": [],
+  "bibliography": null,
+  "csl": null,
+  "template": null,
+  "style_profile": "style-profile.json",
+  "output": "report.docx"
+}
